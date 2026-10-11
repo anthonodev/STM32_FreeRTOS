@@ -72,7 +72,6 @@ void vBlueLedControllerTask(void *pParameters)
 /* Function linked to task 2 (vRedLedControllerTask)*/
 void vRedLedControllerTask(void *pParameters)
 {
-  int i;
   while(1)
   {
     redTaskProfiler++;
@@ -82,7 +81,6 @@ void vRedLedControllerTask(void *pParameters)
 /* Function linked to task 3 (vGreenLedControllerTask)*/
 void vGreenLedControllerTask(void *pParameters)
 {
-  int i;
   while(1)
   {
     greenTaskProfiler++;
